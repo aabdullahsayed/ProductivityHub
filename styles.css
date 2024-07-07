@@ -1,5 +1,4 @@
-body 
-{
+body {
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
     color: white;
@@ -15,8 +14,17 @@ h1 {
 }
 
 .task {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 10px 0;
     font-size: 20px;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
 }
 
 a {
@@ -24,8 +32,11 @@ a {
     text-decoration: none;
 }
 
-.status {
+.status, .times, .streak {
     margin-left: 10px;
+}
+
+.status {
     width: 10px;
     height: 10px;
     display: inline-block;
