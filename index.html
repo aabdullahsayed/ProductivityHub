@@ -3,31 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daily Task Tracker</title>
+    <title>Daily Check-In</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Daily Task Tracker</h1>
+    <h1>Daily Check-In</h1>
     <div class="task-list">
         <div class="task">
+            <img src="path/to/codeforces-logo.png" alt="Codeforces Logo" class="logo">
             <a href="https://codeforces.com" target="_blank" onclick="markVisited('codeforces')">Codeforces</a>
             <span id="codeforces" class="status"></span>
+            <span id="codeforces-times" class="times"></span>
+            <span id="codeforces-streak" class="streak"></span>
         </div>
         <div class="task">
+            <img src="path/to/tryhackme-logo.png" alt="TryHackMe Logo" class="logo">
             <a href="https://tryhackme.com" target="_blank" onclick="markVisited('tryhackme')">TryHackMe</a>
             <span id="tryhackme" class="status"></span>
+            <span id="tryhackme-times" class="times"></span>
+            <span id="tryhackme-streak" class="streak"></span>
         </div>
         <div class="task">
+            <img src="path/to/kaggle-logo.png" alt="Kaggle Logo" class="logo">
             <a href="https://kaggle.com" target="_blank" onclick="markVisited('kaggle')">Kaggle</a>
             <span id="kaggle" class="status"></span>
+            <span id="kaggle-times" class="times"></span>
+            <span id="kaggle-streak" class="streak"></span>
         </div>
         <div class="task">
+            <img src="path/to/hackerrank-logo.png" alt="HackerRank Logo" class="logo">
             <a href="https://hackerrank.com" target="_blank" onclick="markVisited('hackerrank')">HackerRank</a>
             <span id="hackerrank" class="status"></span>
+            <span id="hackerrank-times" class="times"></span>
+            <span id="hackerrank-streak" class="streak"></span>
         </div>
         <div class="task">
+            <img src="path/to/linkedin-logo.png" alt="LinkedIn Logo" class="logo">
             <a href="https://linkedin.com" target="_blank" onclick="markVisited('linkedin')">LinkedIn</a>
             <span id="linkedin" class="status"></span>
+            <span id="linkedin-times" class="times"></span>
+            <span id="linkedin-streak" class="streak"></span>
         </div>
     </div>
     <script src="scripts.js"></script>
