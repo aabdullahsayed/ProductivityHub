@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Task Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Daily Task Tracker</h1>
+    <div class="task-list">
+        <div class="task">
+            <a href="https://codeforces.com" target="_blank" onclick="markVisited('codeforces')">Codeforces</a>
+            <span id="codeforces" class="status"></span>
+        </div>
+        <div class="task">
+            <a href="https://tryhackme.com" target="_blank" onclick="markVisited('tryhackme')">TryHackMe</a>
+            <span id="tryhackme" class="status"></span>
+        </div>
+        <div class="task">
+            <a href="https://kaggle.com" target="_blank" onclick="markVisited('kaggle')">Kaggle</a>
+            <span id="kaggle" class="status"></span>
+        </div>
+        <div class="task">
+            <a href="https://hackerrank.com" target="_blank" onclick="markVisited('hackerrank')">HackerRank</a>
+            <span id="hackerrank" class="status"></span>
+        </div>
+        <div class="task">
+            <a href="https://linkedin.com" target="_blank" onclick="markVisited('linkedin')">LinkedIn</a>
+            <span id="linkedin" class="status"></span>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
